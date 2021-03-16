@@ -8,10 +8,10 @@ const CharacterItem = ({item}) => {
           <img src={item.img} alt='' />
         </div>
         <div className='card-back'>
-          <h1>{item.name}</h1>
+          <h1 style={{color:"#b80716"}}>{item.name}</h1>
           <ul>
             <li>
-              <strong>Actor Name:</strong> {item.portrayed}
+              <strong style={{color:"#0696cf"}}>Actor Name:</strong> {item.portrayed}
             </li>
             <li>
               <strong>Nickname:</strong> {item.nickname}
